@@ -1,6 +1,6 @@
 
 
-To build donutCS on kali you'll first need to install the dotnet sdk.  
+To build DonutSharp on kali you'll first need to install the dotnet sdk.  
   
 ### First, add the microsoft keys
 
@@ -19,12 +19,12 @@ apt-get install dotnet-sdk-2.1
 ```
 ### Third, clone this repo  
 ```
-git clone https://github.com/n1xbyte/donutCS  
+git clone https://github.com/julianxhokaxhiu/DonutSharp  
 ```
 
 ### Finally, move into the repo root and build
 ```
-cd donutCS/
+cd DonutSharp/
 dotnet build
 dotnet run
 ```

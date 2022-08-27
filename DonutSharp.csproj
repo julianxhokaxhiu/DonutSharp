@@ -8,14 +8,14 @@
     <ApplicationIcon />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <PackageId>DonutCore</PackageId>
+    <PackageId>DonutSharp</PackageId>
     <Authors>n1xbyte,Odzhan,TheWover,JulianXhokaxhiu</Authors>
     <Product />
     <Company />
     <PackageProjectUrl>https://github.com/TheWover/donut</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/n1xbyte/donutCS</RepositoryUrl>
+    <RepositoryUrl>https://github.com/julianxhokaxhiu/DonutSharp</RepositoryUrl>
     <Description>dem sharp donuts</Description>
-    <Version>2.0.0</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 

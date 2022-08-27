@@ -1,11 +1,11 @@
-Passing arguments to dotnet build is as simple as adding -- *before* the parameters.  
-  
-Example:  
-`dotnet run -- -f DemoCreateProcess.dll -c TestClass -m RunProcess -p notepad.exe,calc.exe`  
-  
-will output:  
+Passing arguments to dotnet build is as simple as adding -- *before* the parameters.
+
+Example:
+`dotnet run -- -f DemoCreateProcess.dll -c TestClass -m RunProcess -p notepad.exe,calc.exe`
+
+will output:
 ```
-root@ronin:/opt/donutCS# dotnet run -- -f DemoCreateProcess.dll -c TestClass -m RunProcess -p notepad.exe,calc.exe
+root@ronin:/opt/DonutSharp# dotnet run -- -f DemoCreateProcess.dll -c TestClass -m RunProcess -p notepad.exe,calc.exe
 [DEBUG] Starting Donut
 [DEBUG] Parsing Arguements:
 [DEBUG] 	File:	 DemoCreateProcess.dll
@@ -84,19 +84,19 @@ root@ronin:/opt/donutCS# dotnet run -- -f DemoCreateProcess.dll -c TestClass -m 
 [DEBUG] Wrote raw payload to payload.bin
 [DEBUG] Wrote Base64'd payload to payload.bin.b64
 ```
-  
-To test the results you can use Wover's DonutTest app.  
-https://github.com/TheWover/donut/tree/master/DonutTest  
+
+To test the results you can use Wover's DonutTest app.
+https://github.com/TheWover/donut/tree/master/DonutTest
 Take your base64'ed output and replace the appropriate shellcode in Program.cs
 
-### Using Donut  
-Refer to the donut main project for uses.  
-  
-Odzhan's blog post (about the generator): https://modexp.wordpress.com/2019/05/10/dotnet-loader-shellcode/  
-  
-TheWover's blog post (detailed walkthrough, and about how donut affects tradecraft): https://thewover.github.io/Introducing-Donut/  
-  
-v0.9.2 release blog post: https://thewover.github.io/Bear-Claw/  
-  
+### Using Donut
+Refer to the donut main project for uses.
+
+Odzhan's blog post (about the generator): https://modexp.wordpress.com/2019/05/10/dotnet-loader-shellcode/
+
+TheWover's blog post (detailed walkthrough, and about how donut affects tradecraft): https://thewover.github.io/Introducing-Donut/
+
+v0.9.2 release blog post: https://thewover.github.io/Bear-Claw/
+
 
 
